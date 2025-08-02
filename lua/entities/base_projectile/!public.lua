@@ -1,0 +1,8 @@
+ENT.PROJECTILE_DANGER = true
+ENT.PROJECTILE_DISTANCE = 500
+//Dangerous if `CurTime() > self.PROJECTILE_SPAWN`
+ENT.PROJECTILE_SPAWN = 0
+
+ENT.CATEGORIZE = {}
+
+function ENT:Init() end
